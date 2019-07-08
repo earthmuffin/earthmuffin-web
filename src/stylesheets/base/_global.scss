@@ -1,0 +1,262 @@
+// Global styling for this template
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+section.category {
+  padding-top: 50px;
+}
+
+.h2, h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.h3, h3 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.h4, h4 {
+  font-weight: 400;
+}
+
+.bg-light {
+  background-color: #282828 !important;
+}
+
+// Custom horizontal rules
+
+hr.divider {
+  max-width: 3.25rem;
+  border: 0.2rem $primary;
+}
+
+hr.light {
+  border-color: #cecece;
+  max-width: 1140px;
+}
+
+// Button restyling
+
+button:focus {
+  outline: 5px auto $green;
+}
+
+.btn {
+  font-family: $font-family-custom;
+}
+
+.btn-primary {
+  background-color: $green;
+  color: #000;
+}
+
+.btn-xl {
+  padding: 1.2rem 3rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  margin-right: 1em;
+}
+
+// Page section padding
+
+.page-section {
+  padding: 4rem 0;
+}
+
+// Carousel
+
+.carousel .carousel-inner .carousel-item img {
+  //max-width: 250px;
+  margin: 0 auto;
+}
+
+.carousel.features .carousel-inner .carousel-item img {
+  //max-width: 350px;
+  margin: 0 auto;
+}
+
+.carousel-indicators {
+  bottom: -40px;
+}
+
+.carousel-indicators .active {
+  background-color: $primary;
+}
+
+.carousel-indicators li {
+  background-color: #cecece;
+  height: 10px;
+}
+
+// Contact
+
+.contact-form {
+  margin-top: 15px;
+}
+
+.contact-form .textarea {
+  min-height: 220px;
+  resize: none;
+}
+
+.form-control {
+  box-shadow: none;
+  background-color: #f3f3f3;
+  border-color: #eee;
+  height: 49px;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: $green;
+}
+
+.form-control-feedback {
+  line-height: 50px;
+}
+
+/* Heading */
+
+.heading {
+  z-index: 1;
+  position: relative;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.heading:after {
+  left: 50%;
+  height: 3px;
+  width: 50px;
+  content: " ";
+  bottom: -35px;
+  margin-left: -25px;
+  position: absolute;
+  background: #444;
+}
+
+.heading h2 {
+  font-size: 40px;
+  font-weight: 500;
+  margin: 0 0 20px;
+  color: #444;
+}
+
+.heading p {
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #8693a7;
+}
+
+/* Section About */
+
+.claim {
+  font-size: 18px;
+  margin: 2em;
+}
+
+.hiw-section {
+  padding: 2rem 0;
+}
+
+@media (min-width: 640px) {
+  .hiw-section {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+.hiw-device-container {
+  text-align: center;
+}
+
+.hiw-section .hiw-text {
+  padding: 3rem;
+  font-size: 18px;
+}
+
+@media (min-width: 992px) {
+  .hiw-section .hiw-text {
+    padding: 5rem;
+  }
+  .hiw-section .hiw-text hr {
+    border-color: $green;
+    border-width: .25rem;
+    width: 30%;
+  }
+}
+
+.counter {
+  padding: 20px 0;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.counter-line {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.count-title {
+  color: #282828;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.count-text {
+  font-size: 28px;
+  font-weight: lighter;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.awarenes {
+  border: 1px solid #000;
+  border-radius: 6px;
+  padding: 50px 30px 30px;
+}
+
+.awarenes > span {
+  font-size: 18px;
+}
+
+.awarenes-flake {
+  border: 1px solid #000;
+  margin-bottom: -24px;
+  background-color: $green;
+  width: 48px;
+  height: 48px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+// Purchase
+
+.purchase {
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .purchase {
+    text-align: center;
+  }
+}
+
+// Footer
+
+footer.footer {
+  padding-top: 4rem;
+  padding-bottom: 4rem
+}

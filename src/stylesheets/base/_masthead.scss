@@ -1,0 +1,110 @@
+// Styling for the masthead
+header.masthead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - #{$navbar-height});
+  // replace the masthead.jpg image in the /img directory to change the image
+  // if the image name change, make sure to update the url path below!
+  //background: url('../img/bg-masthead.jpg');
+  //background: url('../img/milion.jpg');
+  background: url('http://s1.picswalls.com/wallpapers/2014/08/16/bokeh-image_072058674_199.jpg');
+
+  //background-color: #282828;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  cursor: pointer;
+  color: #fff;
+  h1 {
+    font-size: 4rem;
+    text-align: center !important;
+  }
+  h2 {
+    font-size: 2rem;
+    text-align: center !important;
+    font-weight: 300;
+  }
+
+  @include media-breakpoint-up(lg) {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: $navbar-height;
+    padding-bottom: 0;
+    p {
+      font-size: 1.15rem;
+    }
+    h1 {
+      font-size: 3rem;
+      text-align: left !important;
+    }
+    h2 {
+      font-size: 1.5rem;
+      text-align: left !important;
+    }
+  }
+  @include media-breakpoint-up(xl) {
+    h1 {
+      font-size: 4rem;
+      text-align: left !important;
+    }
+    h2 {
+      font-size: 2rem;
+      text-align: left !important;
+    }
+  }
+}
+
+.header-logo {
+  margin-top: 4px;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.logo {
+  min-width: 100px;
+  max-width: 200px;
+  width: 100%;
+  border: 1px solid #fff;
+  border-radius: 15%;
+  background-color: #fff;
+}
+
+.store-container {
+  margin-top: 40px;
+  margin-left: -10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.store-item {
+  width: 155px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.store-img {
+  min-width: 100px;
+  width: 100%;
+}
+
+@media (max-width: 992px) {
+  .header-logo {
+    margin-top: 8px;
+  }
+
+  .button-container {
+    text-align: center;
+  }
+
+  .store-container {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .device-container {
+    text-align: center;
+  }
+}

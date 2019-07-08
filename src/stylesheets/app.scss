@@ -1,0 +1,12 @@
+@import "base/typography";
+
+// Import custom variables (overrides Bootstrap default variables)
+@import "base/variables.scss";
+
+//// Import Bootstrap
+@import "bootstrap/scss/bootstrap.scss";
+
+// Import custom styles
+@import "base/global.scss";
+@import "base/navbar.scss";
+@import "base/masthead.scss";

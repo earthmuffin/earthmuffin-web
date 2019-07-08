@@ -1,0 +1,16 @@
+// Set a custom color
+$green: rgba(102, 222, 92, 1) !default;
+
+// Set primary color to green
+$primary: $green !default;
+
+// Font overrides
+
+$font-family-custom: 'PingFangTC-Regular', 'PingFangHK-Regular', 'PingFangSC-Regular', 'Helvetica', 'Microsoft JhengHei', 'Microsoft YaHei', 'MS Gothic', 'Malgun Gothic', 'Arial', 'sans-serif';
+
+$font-family-base: $font-family-custom !default;
+
+$headings-font-family: $font-family-custom !default;
+
+// Custom variables
+$navbar-height: 72px;
