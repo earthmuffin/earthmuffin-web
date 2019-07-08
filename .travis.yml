@@ -1,0 +1,29 @@
+language: node_js
+dist: trusty
+sudo: false
+
+git:
+  depth: 10
+  lfs_skip_smudge: true
+
+cache:
+  yarn: true
+  directories:
+    - node_modules
+
+install:
+  - yarn
+
+script:
+  - yarn run blendid -- build
+
+deploy:
+  provider: s3
+  access_key_id: "$AWS_ACCESS_KEY"
+  secret_access_key: "$AWS_SECRET_KEY"
+  bucket: "earth-muffin.org"
+  skip_cleanup: true
+  region: eu-west-1
+  local_dir: "public/"
+  on:
+    branch: master
