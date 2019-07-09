@@ -208,7 +208,7 @@ button:focus {
 }
 
 .count-title {
-  color: #282828;
+  color: #fff;
   font-size: 25px;
   margin-top: 10px;
   margin-bottom: 0;
@@ -259,4 +259,16 @@ button:focus {
 footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem
+}
+
+.text-muted {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+// About
+
+#about-section {
+  background: #282828 url('../img/worldtracker.png') no-repeat scroll center;
+  background-size: contain;
+  color: #fff;
 }

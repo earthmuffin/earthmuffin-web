@@ -82,8 +82,8 @@
                     <div class="device-mockup">
                         <div class="device">
                             <div class="screen">
-                                <img src="img/screen.png"
-                                     srcset="img/screen.png 1x, img/screen.png 1.5x, img/screen.png 2x, img/screen.png 3x"
+                                <img src="img/mainscreen.png"
+                                     srcset="img/mainscreen.png 1x, img/mainscreen.png 1.5x, img/mainscreen.png 2x, img/mainscreen.png 3x"
                                      class="img-fluid"/>
                             </div>
                         </div>
@@ -153,15 +153,13 @@
     </div>
 </div>
 
-<hr class="light">
-
 <div id="how-section">
 
     <section class="category" id="howitworks">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8 text-center">
-                    <h2 class="mt-0">How it works</h2>
+                    <h2 class="mt-0">How It Works</h2>
                 </div>
             </div>
         </div>
@@ -197,7 +195,7 @@
                     <div class="text-center h-100 hiw">
                         <div class="d-flex h-100">
                             <div class="hiw-text w-100 my-auto text-center text-lg-left">
-                                <p class="mb-0">{{ hiw2 }}</p>
+                                <p class="mb-0"><b>{{ hiw2action }}</b>{{ hiw2 }}</p>
                                 <hr class="d-none d-lg-block mb-0 ml-0"/>
                             </div>
                         </div>
@@ -224,7 +222,7 @@
                     <div class="text-center h-100 hiw">
                         <div class="d-flex h-100">
                             <div class="hiw-text w-100 my-auto text-center text-lg-left">
-                                <p class="mb-0">{{ hiw3 }}</p>
+                                <p class="mb-0"><b><b>{{ hiw3action }}</b></b>{{ hiw3 }}</p>
                                 <hr class="d-none d-lg-block mb-0 ml-0"/>
                             </div>
                         </div>
@@ -258,18 +256,18 @@
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="img/theme1.png"
-                                 srcset="img/theme1.png 1x, img/theme1.png 1.5x, img/theme1.png 2x, img/theme1.png 3x"
+                            <img src="img/theme_default.png"
+                                 srcset="img/theme_default.png 1x, img/theme_default.png 1.5x, img/theme_default.png 2x, img/theme_default.png 3x"
                                  class="d-block w-100"/>
                         </div>
                         <div class="carousel-item">
-                            <img src="img/theme2.png"
-                                 srcset="img/theme2.png 1x, img/theme2.png 1.5x, img/theme2.png 2x, img/theme2.png 3x"
+                            <img src="img/theme_dark.png"
+                                 srcset="img/theme_dark.png 1x, img/theme_dark.png 1.5x, img/theme_dark.png 2x, img/theme_dark.png 3x"
                                  class="d-block w-100"/>
                         </div>
                         <div class="carousel-item">
-                            <img src="img/theme3.png"
-                                 srcset="img/theme3.png 1x, img/theme3.png 1.5x, img/theme3.png 2x, img/theme3.png 3x"
+                            <img src="img/theme_rainbow.png"
+                                 srcset="img/theme_rainbow.png 1x, img/theme_rainbow.png 1.5x, img/theme_rainbow.png 2x, img/theme_rainbow.png 3x"
                                  class="d-block w-100"/>
                         </div>
                     </div>
@@ -277,10 +275,11 @@
             </div>
             <div class="col-sm-12 col-md-6 pt-4">
                 <div class="purchase">
-                    <h3 class="display-6 mt-2">How to contribute</h3>
+                    <h3 class="display-6 mt-2">Support Us</h3>
                     <p>{{ purchase1 }}</p>
                     <p>{{ purchase2 }}</p>
                     <p>{{ purchase3 }}</p>
+                    <p>{{ purchase4 }}</p>
                     <div class="mt-4">
                         <a href="#contact" class="btn btn-primary btn-xl js-scroll-trigger">Learn more</a>
                     </div>
@@ -355,7 +354,7 @@
                         <a class="js-scroll-trigger" href="#contact">Contact</a>
                     </li>
                 </ul>
-                <p class="text-muted small mb-4 mb-lg-0">EarthMuffin © 2019. All rights reserved.</p>
+                <p class="text-muted small mb-4 mb-lg-0">EarthMuffin © 2019</p>
             </div>
             <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
                 <ul class="list-inline mb-0">

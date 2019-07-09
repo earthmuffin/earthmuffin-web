@@ -2,13 +2,7 @@
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - #{$navbar-height});
-  // replace the masthead.jpg image in the /img directory to change the image
-  // if the image name change, make sure to update the url path below!
-  //background: url('../img/bg-masthead.jpg');
-  //background: url('../img/milion.jpg');
-  background: url('http://s1.picswalls.com/wallpapers/2014/08/16/bokeh-image_072058674_199.jpg');
-
-  //background-color: #282828;
+  background: url('../img/bg.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
