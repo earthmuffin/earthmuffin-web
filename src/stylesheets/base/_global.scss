@@ -63,12 +63,6 @@ button:focus {
   margin-right: 1em;
 }
 
-// Page section padding
-
-.page-section {
-  padding: 4rem 0;
-}
-
 // Carousel
 
 .carousel .carousel-inner .carousel-item img {
@@ -82,7 +76,6 @@ button:focus {
 }
 
 .carousel-indicators {
-  bottom: -40px;
 }
 
 .carousel-indicators .active {
@@ -179,19 +172,8 @@ button:focus {
 }
 
 .hiw-section .hiw-text {
-  padding: 3rem;
+  padding: 1rem;
   font-size: 18px;
-}
-
-@media (min-width: 992px) {
-  .hiw-section .hiw-text {
-    padding: 5rem;
-  }
-  .hiw-section .hiw-text hr {
-    border-color: $green;
-    border-width: .25rem;
-    width: 30%;
-  }
 }
 
 .counter {
@@ -226,6 +208,8 @@ button:focus {
   border: 1px solid #000;
   border-radius: 6px;
   padding: 50px 30px 30px;
+  background-color: #fff;
+  color: #000;
 }
 
 .awarenes > span {
@@ -235,7 +219,7 @@ button:focus {
 .awarenes-flake {
   border: 1px solid #000;
   margin-bottom: -24px;
-  background-color: $green;
+  background-color: #fff;
   width: 48px;
   height: 48px;
   padding: 10px;
@@ -245,7 +229,8 @@ button:focus {
 // Purchase
 
 .purchase {
-  margin-top: 1.5rem;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 768px) {
@@ -271,4 +256,18 @@ footer.footer {
   background: #282828 url('../img/worldtracker.png') no-repeat scroll center;
   background-size: contain;
   color: #fff;
+}
+
+// Support
+
+#support-section {
+  background: url('../img/board.jpg') no-repeat scroll center;
+  background-size: cover;
+  color: #fff;
+}
+
+// Contact
+
+.contact-section {
+  padding-bottom: 4rem;
 }

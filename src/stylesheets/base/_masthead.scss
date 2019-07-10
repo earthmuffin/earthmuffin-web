@@ -7,7 +7,6 @@ header.masthead {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
-  cursor: pointer;
   color: #fff;
   h1 {
     font-size: 4rem;
@@ -54,6 +53,17 @@ header.masthead {
   text-align: center;
 }
 
+.header-down {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  bottom: 10px;
+  width: 62px;
+  cursor: pointer;
+}
+
 .logo {
   min-width: 100px;
   max-width: 200px;
@@ -82,6 +92,7 @@ header.masthead {
 .store-img {
   min-width: 100px;
   width: 100%;
+  cursor: pointer;
 }
 
 @media (max-width: 992px) {

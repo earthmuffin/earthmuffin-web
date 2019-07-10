@@ -4,7 +4,8 @@
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
     <meta http-equiv="Accept-CH" content="DPR,Viewport-Width,Width"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="description" content="EarthMuffin - Spread the knowledge, Save the planet."/>
     <title>EarthMuffin</title>
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700,900" rel="stylesheet" type="text/css"/>
@@ -34,16 +35,16 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto my-2 my-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                    <a class="nav-link js-scroll-trigger" href="#about-section">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#hiw">How it works</a>
+                    <a class="nav-link js-scroll-trigger" href="#how-section">How it works</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#hiw">Support Us</a>
+                    <a class="nav-link js-scroll-trigger" href="#support-section">Support Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                    <a class="nav-link js-scroll-trigger" href="#contact-section">Contact</a>
                 </li>
             </ul>
         </div>
@@ -54,7 +55,6 @@
     <div class="container h-100">
         <div class="row h-100">
             <div class="col-lg-8 my-auto">
-
                 <div class="row">
                     <div class="col-lg-3">
                         <div class="header-logo">
@@ -66,9 +66,6 @@
                             <h1>EarthMuffin</h1>
                             <h2>Think nature, spread</h2>
                             <h2 class="mb-5">knowledge</h2>
-                            <!--<div class="button-container">-->
-                                <!--<a href="#about" class="btn btn-primary btn-xl js-scroll-trigger">Get started</a>-->
-                            <!--</div>-->
                             <div class="store-container">
                                 <a class="store-item">
                                     <img class="store-img" src="img/appstore.svg">
@@ -80,8 +77,6 @@
                         </div>
                     </div>
                 </div>
-
-
             </div>
             <div class="col-lg-4 my-auto">
                 <div class="device-container">
@@ -98,6 +93,9 @@
             </div>
         </div>
     </div>
+    <a href="#about" class="header-down js-scroll-trigger">
+        <img width="100" height="100px" src="img/sd.gif">
+    </a>
 </header>
 
 <div id="about-section">
@@ -110,13 +108,11 @@
             </div>
         </div>
     </section>
-
     <div class="container">
         <div class="row text-center claim mt-5">
             <span>{{ claim }}</span>
         </div>
     </div>
-
     <div class="container">
         <div class="row text-center numbers mt-5">
             <div class="col-lg-4">
@@ -160,7 +156,6 @@
 </div>
 
 <div id="how-section">
-
     <section class="category" id="howitworks">
         <div class="container">
             <div class="row justify-content-center">
@@ -170,66 +165,35 @@
             </div>
         </div>
     </section>
-
-    <!-- How it works Section -->
     <section id="hiw" class="hiw-section">
         <div class="container">
             <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
                 <div class="col-lg-4">
-                    <div class="hiw-device-container">
-                        <img src="img/screen.png" height="400px"/>
-                    </div>
-                </div>
-                <div class="col-lg-8">
-                    <div class="text-center h-100 hiw">
+                    <div class="text-center hiw">
                         <div class="d-flex h-100">
-                            <div class="hiw-text w-100 my-auto text-center text-lg-left">
+                            <div class="hiw-text w-100 my-auto text-center">
+                                <img src="img/screen.png" height="400px"/>
                                 <p class="mb-0">{{ hiw1 }}</p>
-                                <hr class="d-none d-lg-block mb-0 ml-0"/>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-    <hr class="light">
-    <section id="hiw2" class="hiw-section">
-        <div class="container">
-            <div class="row justify-content-center no-gutters">
-                <div class="col-lg-8">
-                    <div class="text-center h-100 hiw">
+                <div class="col-lg-4">
+                    <div class="text-center hiw">
                         <div class="d-flex h-100">
-                            <div class="hiw-text w-100 my-auto text-center text-lg-left">
+                            <div class="hiw-text w-100 my-auto text-center">
+                                <img src="img/screen.png" height="400px"/>
                                 <p class="mb-0"><b>{{ hiw2action }}</b>{{ hiw2 }}</p>
-                                <hr class="d-none d-lg-block mb-0 ml-0"/>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="hiw-device-container">
-                        <img src="img/screen.png" height="400px"/>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <hr class="light">
-    <section id="hiw3" class="hiw-section">
-        <div class="container">
-            <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-                <div class="col-lg-4">
-                    <div class="hiw-device-container">
-                        <img src="img/screen.png" height="400px"/>
-                    </div>
-                </div>
-                <div class="col-lg-8">
-                    <div class="text-center h-100 hiw">
+                    <div class="text-center hiw">
                         <div class="d-flex h-100">
-                            <div class="hiw-text w-100 my-auto text-center text-lg-left">
-                                <p class="mb-0"><b><b>{{ hiw3action }}</b></b>{{ hiw3 }}</p>
-                                <hr class="d-none d-lg-block mb-0 ml-0"/>
+                            <div class="hiw-text w-100 my-auto text-center">
+                                <img src="img/screen.png" height="400px"/>
+                                <p class="mb-0"><b>{{ hiw3action }}</b>{{ hiw3 }}</p>
                             </div>
                         </div>
                     </div>
@@ -239,120 +203,117 @@
     </section>
 </div>
 
-<section class="category" id="supportus">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-8 text-center">
-                <h2 class="mt-0">Support Us</h2>
+<div id="support-section">
+    <section class="category">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h2 class="mt-0">Support Us</h2>
+                </div>
             </div>
         </div>
-    </div>
-</section>
-
-<section class="hiw-section ">
-    <div class="container text-center">
-        <img class="awarenes-flake" src="img/flake.svg"/>
-    </div>
-    <div class="container text-center awarenes">
-        <h4>{{ awareness1 }}</h4>
-        <!--<br>-->
-        <!--<span>{{ awareness2 }}</span>-->
-    </div>
-</section>
-
-<!--<section class="page-section" id="purchase">-->
-    <!---->
-<!--</section>-->
-
-<div class="container">
-    <div class="row">
-        <div class="col-sm-12 col-md-6 pt-4">
-            <div id="carouselExampleIndicators1" class="carousel slide features" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="img/theme_default.png"
-                             srcset="img/theme_default.png 1x, img/theme_default.png 1.5x, img/theme_default.png 2x, img/theme_default.png 3x"
-                             class="d-block w-100"/>
+    </section>
+    <section class="category">
+        <div class="container text-center">
+            <img class="awarenes-flake" src="img/flake.svg"/>
+        </div>
+        <div class="container text-center awarenes">
+            <h4>{{ support }}</h4>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 pt-4">
+                    <div id="carouselExampleIndicators1" class="carousel slide features" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/theme_default.png"
+                                     srcset="img/theme_default.png 1x, img/theme_default.png 1.5x, img/theme_default.png 2x, img/theme_default.png 3x"
+                                     class="d-block w-100"/>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/theme_dark.png"
+                                     srcset="img/theme_dark.png 1x, img/theme_dark.png 1.5x, img/theme_dark.png 2x, img/theme_dark.png 3x"
+                                     class="d-block w-100"/>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/theme_rainbow.png"
+                                     srcset="img/theme_rainbow.png 1x, img/theme_rainbow.png 1.5x, img/theme_rainbow.png 2x, img/theme_rainbow.png 3x"
+                                     class="d-block w-100"/>
+                            </div>
+                        </div>
                     </div>
-                    <div class="carousel-item">
-                        <img src="img/theme_dark.png"
-                             srcset="img/theme_dark.png 1x, img/theme_dark.png 1.5x, img/theme_dark.png 2x, img/theme_dark.png 3x"
-                             class="d-block w-100"/>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="img/theme_rainbow.png"
-                             srcset="img/theme_rainbow.png 1x, img/theme_rainbow.png 1.5x, img/theme_rainbow.png 2x, img/theme_rainbow.png 3x"
-                             class="d-block w-100"/>
+                </div>
+                <div class="col-sm-12 col-md-6 pt-4">
+                    <div class="purchase">
+                        <p>{{ purchase1 }}</p>
+                        <p>{{ purchase2 }}</p>
+                        <p>{{ purchase3 }}</p>
+                        <div class="mt-4">
+                            <a href="#contact" class="btn btn-primary btn-xl js-scroll-trigger">Learn more</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="col-sm-12 col-md-6 pt-4">
-            <div class="purchase">
-                <p>{{ purchase1 }}</p>
-                <p>{{ purchase2 }}</p>
-                <p>{{ purchase3 }}</p>
-                <div class="mt-4">
-                    <a href="#contact" class="btn btn-primary btn-xl js-scroll-trigger">Learn more</a>
-                </div>
-
-            </div>
-        </div>
-    </div>
+    </section>
 </div>
 
-<section class="page-section" id="contact">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="">Contact</h2>
+<div id="contact-section" class="contact-section">
+    <section class="category">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="">Contact</h2>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <form role="form" id="contact-form" class="contact-form">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <input class="form-control" name="name" autocomplete="off" id="Name"
-                                       placeholder="Name"/>
+    </section>
+    <section class="category">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <form role="form" id="contact-form" class="contact-form">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input class="form-control" name="name" autocomplete="off" id="Name"
+                                           placeholder="Name"/>
+                                </div>
+                                <label for="Name"></label>
                             </div>
-                            <label for="Name"></label>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <input type="email" class="form-control" name="email" autocomplete="off" id="email"
-                                       placeholder="E-mail"/>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" name="email" autocomplete="off" id="email"
+                                           placeholder="E-mail"/>
+                                </div>
+                                <label for="email"></label>
                             </div>
-                            <label for="email"></label>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="form-group">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
                                 <textarea class="form-control textarea" rows="3" name="message" id="Message"
                                           placeholder="Message"></textarea>
+                                </div>
+                                <label for="Message"></label>
                             </div>
-                            <label for="Message"></label>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <button type="submit" class="btn btn-primary btn-xl">Send a message</button>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <button type="submit" class="btn btn-primary btn-xl">Send a message</button>
+                            </div>
                         </div>
-                    </div>
-                </form>
+                    </form>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
+</div>
 
 <!-- Footer -->
 <footer class="footer bg-light">
@@ -361,13 +322,16 @@
             <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
                 <ul class="list-inline mb-2">
                     <li class="list-inline-item">
-                        <a class="js-scroll-trigger" href="#page-top">Top</a>
+                        <a class="js-scroll-trigger" href="#about-section">About</a>
                     </li>
                     <li class="list-inline-item">
-                        <a class="js-scroll-trigger" href="#about">About</a>
+                        <a class="js-scroll-trigger" href="#how-section">How it works</a>
                     </li>
                     <li class="list-inline-item">
-                        <a class="js-scroll-trigger" href="#contact">Contact</a>
+                        <a class="js-scroll-trigger" href="#support-section">Support Us</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="js-scroll-trigger" href="#contact-section">Contact</a>
                     </li>
                 </ul>
                 <p class="text-muted small mb-4 mb-lg-0">EarthMuffin © 2019</p>
