@@ -1,9 +1,7 @@
-@import "base/typography";
-
 // Import custom variables (overrides Bootstrap default variables)
 @import "base/variables.scss";
 
-//// Import Bootstrap
+// Import Bootstrap
 @import "bootstrap/scss/bootstrap.scss";
 
 // Import custom styles

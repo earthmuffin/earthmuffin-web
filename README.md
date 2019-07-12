@@ -50,13 +50,17 @@
 ### CloudFront distribution
 
 - Create new distribution with origin matching endpoint without protocol from s3 `Static website hosting` section
+- Create and link SSL certificate with ACM (N. Virginia)
+
+In case you are not able to create CloudFront distribution because of account
+verification or create certificate in ACM contact AWS support.
 
 ### Route 53
 
 - Create `CNAME` record set pointing to endpoint without protocol from s3 `Static website hosting` section
 - Create `A` record set pointing to CloudFront distribution domain name
 
-Check if your NS records match with registered domain by using e.g. `whois` tool
+Check if your NS records match with registered domain by using e.g. `whois` tool.
 
 ### Troubleshooting
 
