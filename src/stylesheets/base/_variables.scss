@@ -6,11 +6,11 @@ $primary: $green !default;
 
 // Font overrides
 
-$font-family-custom: 'PingFangTC-Regular', 'PingFangHK-Regular', 'PingFangSC-Regular', 'Helvetica', 'Microsoft JhengHei', 'Microsoft YaHei', 'MS Gothic', 'Malgun Gothic', 'Arial', 'sans-serif';
+$font-family-base: 'Avenir LT Std 55 Roman', 'Arial', 'sans-serif' !default;
 
-$font-family-base: $font-family-custom !default;
+$font-family-headings: 'Avenir LT Std 95 Black', 'Arial', 'sans-serif' !default;
 
-$headings-font-family: $font-family-custom !default;
+$font-family-buttons: 'Avenir LT Std 85 Heavy', 'Arial', 'sans-serif' !default;
 
 // Custom variables
 $navbar-height: 72px;

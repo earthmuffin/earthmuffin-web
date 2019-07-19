@@ -41,12 +41,8 @@ hr.light {
 
 // Button restyling
 
-button:focus {
-  outline: 5px auto $green;
-}
-
 .btn {
-  font-family: $font-family-custom;
+  font-family: $font-family-base;
 }
 
 .btn-primary {
@@ -60,7 +56,7 @@ button:focus {
   font-weight: 700;
   text-transform: uppercase;
   border: none;
-  margin-right: 1em;
+  font-family: $font-family-buttons;
 }
 
 // Carousel

@@ -1,8 +1,9 @@
 // Styling for the masthead
 header.masthead {
+  font-family: $font-family-headings;
   padding-top: 10rem;
   padding-bottom: calc(10rem - #{$navbar-height});
-  background: url('../img/bg.jpg');
+  background: url('../img/bg.png');
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -45,22 +46,19 @@ header.masthead {
   }
 }
 
-.header-logo {
-  margin-top: 4px;
-  margin-bottom: 1rem;
-  text-align: center;
+.header-btn {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
 }
 
 .logo {
-  width: 100%;
-  border: 1px solid #fff;
-  border-radius: 15%;
-  background-color: #fff;
+  height: 50px;
 }
 
 .store-container {
   margin-top: 40px;
-  margin-left: -20px;
+  margin-left: -10px;
   display: flex;
   flex-direction: row;
 }
@@ -81,8 +79,9 @@ header.masthead {
 }
 
 @media (max-width: 992px) {
+
   .logo {
-    width: 150px;
+    height: 30px;
   }
 
   .button-container {
