@@ -3,8 +3,11 @@
   background-color: #282828;
   transition: background-color 0.2s ease;
   .navbar-brand {
+    height: $navbar-height;
     padding-top: 0;
     padding-bottom: 0;
+    display: flex;
+    align-items: center;
   }
   .navbar-toggler {
     background-color: #fff !important;
