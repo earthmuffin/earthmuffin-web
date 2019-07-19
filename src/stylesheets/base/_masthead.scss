@@ -3,10 +3,7 @@ header.masthead {
   font-family: $font-family-headings;
   padding-top: 10rem;
   padding-bottom: calc(10rem - #{$navbar-height});
-  background: url('../img/bg.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
+  background: url('../img/bg.png') no-repeat scroll center;
   background-size: cover;
   color: #fff;
   h1 {
@@ -44,12 +41,6 @@ header.masthead {
       text-align: left !important;
     }
   }
-}
-
-.header-btn {
-  background-color: transparent;
-  border: 2px solid #fff;
-  color: #fff;
 }
 
 .logo {

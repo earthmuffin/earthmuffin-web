@@ -42,21 +42,47 @@ hr.light {
 // Button restyling
 
 .btn {
-  font-family: $font-family-base;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  font-family: $font-family-buttons;
 }
 
 .btn-primary {
-  background-color: $green;
-  color: #000;
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.btn-primary:focus {
+  box-shadow: none !important;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  border: 2px solid $secondary;
+  color: $secondary;
+}
+
+.btn-secondary:hover {
+  color: #fff;
+  background-color: $secondary;
+  border-color: $secondary;
+}
+
+.btn-secondary:focus {
+  box-shadow: none !important;
 }
 
 .btn-xl {
   padding: 1.2rem 3rem;
   font-size: 0.85rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  border: none;
-  font-family: $font-family-buttons;
+
+}
+
+.btn-md {
+  padding: 0.8rem 2rem;
+  font-size: 0.65rem;
 }
 
 // Carousel

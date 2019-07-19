@@ -1,8 +1,10 @@
 // Set a custom color
 $green: rgba(102, 222, 92, 1) !default;
+$grey: #282828 !default;
 
-// Set primary color to green
+// Set primary & secondary colors
 $primary: $green !default;
+$secondary: $grey !default;
 
 // Font overrides
 
