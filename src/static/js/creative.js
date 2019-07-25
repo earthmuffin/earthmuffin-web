@@ -15,6 +15,19 @@
     }
   });
 
+  // Formspree Ajax
+  //$("#sendMessage").on("click", function() {
+  //  var message = $("#contactForm").serialize();
+  //  $.ajax({
+  //    url: "//formspree.io/team@earth-muffin.org",
+  //    method: "POST",
+  //    data: {message: message},
+  //    dataType: "json"
+  //  });
+  //  alert('Thanks for the email, we\'ll be in touch promptly.');
+  //  return false;
+  //});
+
   // Closes responsive menu when a scroll trigger link is clicked
   $('.js-scroll-trigger').click(function() {
     $('.navbar-collapse').collapse('hide');

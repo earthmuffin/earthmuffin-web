@@ -44,7 +44,7 @@
                     <a class="nav-link js-scroll-trigger" href="#how-section">How it works</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#support-section">Support Us</a>
+                    <a class="nav-link js-scroll-trigger" href="#price-section">Support Us</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#contact-section">Contact</a>
@@ -73,12 +73,15 @@
                 <div class="row">
                     <div class="col-lg-12 col-lg-9 col-md-12 col-sm-12 col-xs-12">
                         <div class="store-container">
-                            <a class="store-item">
+                            <a class="store-item" href="https://apps.apple.com/cz/app/earthmuffin/id1447824775" target="_blank">
                                 <img class="store-img" src="img/appstore.svg">
                             </a>
-                            <a class="store-item">
-                                <img class="store-img" src="img/googleplay.svg">
+                            <a class="store-item store-item-disabled">
+                                <img class="store-img store-img-disabled" src="img/google-play.png">
                             </a>
+                            <!--<a class="store-item">-->
+                                <!--<img class="store-img" src="img/googleplay.svg">-->
+                            <!--</a>-->
                         </div>
                     </div>
                 </div>
@@ -175,7 +178,7 @@
                         <div class="d-flex h-100">
                             <div class="hiw-text w-100 my-auto text-center">
                                 <img src="img/quote.png" height="200px"/>
-                                <p class="mb-3 mt-3">{{ hiw1 }}</p>
+                                <p class="mb-0 mt-3">{{ hiw1 }}</p>
                             </div>
                         </div>
                     </div>
@@ -185,7 +188,7 @@
                         <div class="d-flex h-100">
                             <div class="hiw-text w-100 my-auto text-center">
                                 <img src="img/like.png" height="200px"/>
-                                <p class="mb-3 mt-3"><b>{{ hiw2action }}</b>{{ hiw2 }}</p>
+                                <p class="mb-0 mt-3">{{ hiw2 }}</p>
                             </div>
                         </div>
                     </div>
@@ -195,7 +198,7 @@
                         <div class="d-flex h-100">
                             <div class="hiw-text w-100 my-auto text-center">
                                 <img src="img/share.png" width="200px"/>
-                                <p class="mb-3 mt-3"><b>{{ hiw3action }}</b>{{ hiw3 }}</p>
+                                <p class="mb-0 mt-3">{{ hiw3 }}</p>
                             </div>
                         </div>
                     </div>
@@ -205,7 +208,7 @@
     </section>
 </div>
 
-<div id="support-section">
+<div id="price-section">
     <section class="category">
         <div class="container">
             <div class="row justify-content-center">
@@ -220,7 +223,7 @@
             <img class="awarenes-flake" src="img/flake.svg"/>
         </div>
         <div class="container text-center awarenes">
-            <h3>{{ support }}</h3>
+            <h3>{{ price }}</h3>
         </div>
         <div class="container">
             <div class="row">
@@ -254,9 +257,8 @@
                     <div class="purchase">
                         <p>{{ purchase1 }}</p>
                         <p>{{ purchase2 }}</p>
-                        <p>{{ purchase3 }}</p>
-                        <div class="mt-4">
-                            <a href="#contact-section" class="btn btn-primary btn-xl js-scroll-trigger">Learn more</a>
+                        <div class="mt-4 mb-2">
+                            <a href="#contact-section" class="btn btn-primary btn-xl js-scroll-trigger">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -279,7 +281,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <form role="form" id="contact-form" class="contact-form">
+                    <form role="form" id="contactForm" class="contact-form" action="https://formspree.io/team@earth-muffin.org" method="POST">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
@@ -290,7 +292,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="email" class="form-control" name="email" autocomplete="off" id="email"
+                                    <input type="email" class="form-control" name="_replyto" autocomplete="off" id="email"
                                            placeholder="E-mail"/>
                                 </div>
                                 <label for="email"></label>
@@ -307,7 +309,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                <button type="submit" class="btn btn-secondary btn-xl">Send a message</button>
+                                <button id="sendMessage" type="submit" class="btn btn-secondary btn-xl">Send a message</button>
                             </div>
                         </div>
                     </form>
@@ -330,7 +332,7 @@
                         <a class="js-scroll-trigger" href="#how-section">How it works</a>
                     </li>
                     <li class="list-inline-item">
-                        <a class="js-scroll-trigger" href="#support-section">Support Us</a>
+                        <a class="js-scroll-trigger" href="#price-section">Support Us</a>
                     </li>
                     <li class="list-inline-item">
                         <a class="js-scroll-trigger" href="#contact-section">Contact</a>
@@ -341,12 +343,12 @@
             <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
                 <ul class="list-inline mb-0">
                     <li class="list-inline-item mr-3">
-                        <a href="#page-top">
+                        <a href="https://fb.me/earthmuffinapp" target="_blank">
                             <img alt="Facebook" src="img/facebook.svg"/>
                         </a>
                     </li>
                     <li class="list-inline-item mr-3">
-                        <a href="#page-top">
+                        <a href="https://twitter.com/earthmuffin4" target="_blank">
                             <img alt="Twitter" src="img/twitter.svg"/>
                         </a>
                     </li>

@@ -175,6 +175,7 @@ hr.light {
 .claim {
   font-size: 18px;
   margin: 2em;
+  justify-content: center;
 }
 
 @media (max-width: 768px) {
@@ -297,7 +298,7 @@ footer.footer {
 
 // Support
 
-#support-section {
+#price-section {
   background: url('../img/board.jpg') no-repeat scroll center;
   background-size: cover;
   color: #fff;
